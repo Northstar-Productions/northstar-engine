@@ -10,12 +10,15 @@ local NorthstarEngine = {
 local Vendor = require(script.Core.Vendor)
 local EventBus = require(script.Core.EventBus)
 local NetworkBridge = require(script.Core.NetworkBridge)
+local Loader = require(script.Core.Loader)
 
 -- Expose core systems
 NorthstarEngine.Vendor = Vendor
 NorthstarEngine.EventBus = EventBus
+NorthstarEngine.Loader = Loader
 
 --[[
+
     Creates a new component
 
     @param name string - Unique component name

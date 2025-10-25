@@ -6,12 +6,19 @@
     "ReplicatedStorage": {
       "NorthstarEngine": {
         "$path": "src/shared"
-      }
+      },
+      "$path": "src/replicated"
     },
 
     "ServerScriptService": {
       "Server": {
         "$path": "src/server"
+      }
+    },
+
+    "ServerStorage": {
+      "Modules": {
+        "$path": "src/storage"
       }
     },
 

@@ -1,1 +1,2 @@
-print("Hello world, from client!")
+local NE = require(game.ReplicatedStorage.NorthstarEngine)
+NE:Start()
